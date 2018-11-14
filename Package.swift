@@ -10,8 +10,7 @@ pkg.products = [
 let pmk: Target = .target(name: "AXSwift")
 pmk.path = "Sources"
 pmk.exclude = [
-    "Info.plist",
-    "AXSwift.swift"
+    "Info.plist"
 ]
 pkg.swiftLanguageVersions = [4]
 pkg.targets = [
